@@ -9,7 +9,6 @@ from docx.shared import Pt
 # Inicializa el modelo GPT-3
 openai.api_key = os.environ.get("OPENAI_API_KEY")
 
-
 # Carga el modelo de lenguaje de spaCy
 nlp = spacy.load("en_core_web_sm")
 
